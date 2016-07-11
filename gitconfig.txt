@@ -1,0 +1,36 @@
+[merge]
+    tool = kdiff3
+[mergetool "kdiff3"]
+    path = C:/Program Files/KDiff3/kdiff3.exe
+[diff]
+    tool = kdiff3
+    path = C:/Program Files/KDiff3/kdiff3.exe
+[core]
+    editor = vim
+    autcrlf = true
+[user]
+	name = Irish09
+	email = IrishCodes09@gmail.com
+[push]
+	default = simple
+[credential]
+	helper = cache
+[mergetool]
+    keepBackup = false
+[alias]
+    lg = log --pretty=format:'%C(yellow)%h %C(green)%ad %C(cyan)%an %C(auto)%d %C(reset)%s' --date=short --all --graph --relative-date -30
+    lm = log --pretty=format:'%C(yellow)%h %C(green)%ad %C(cyan)%an %C(auto)%d %C(reset)%s' --date=short master --graph --relative-date -30
+    lb = log --pretty=format:'%C(yellow)%h %C(green)%ad %C(cyan)%an %C(auto)%d %C(reset)%s' --date=short --graph --relative-date -30
+    fp = log --pretty=format:'%C(yellow)%h %C(green)%ad %C(cyan)%an %C(auto)%d %C(reset)%s' --date=short --all --graph --first-parent --relative-date -30
+    co = checkout
+    pr = remote prune origin
+    fe = fetch origin
+    cm = commit -m
+    st = status
+    tg = tag -ad
+    mt = mergetool
+    rc = rebase --continue
+    ca = commit --amend
+    fb = fetch bundlefile
+    rrb = remote remove bundlefile
+    rab = remote add bundlefile
