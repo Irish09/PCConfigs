@@ -1,0 +1,15 @@
+execute pathogen#infect()
+syntax enable
+filetype plugin indent on
+set background=dark
+colorscheme solarized
+set exrc
+set secure
+set number
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+highlight ColorColumn ctermbg=darkgray
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%111v.\+/
