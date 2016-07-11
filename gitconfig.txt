@@ -13,8 +13,6 @@
 	email = IrishCodes09@gmail.com
 [push]
 	default = simple
-[credential]
-	helper = cache
 [mergetool]
     keepBackup = false
 [alias]
