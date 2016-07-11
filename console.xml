@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <settings>
-	<console change_refresh="10" refresh="100" rows="61" columns="116" buffer_rows="500" buffer_columns="0" shell="ls" init_dir="D:\SU2" start_hidden="0" save_size="1">
+	<console change_refresh="10" refresh="100" rows="62" columns="118" buffer_rows="500" buffer_columns="0" shell="ls" init_dir="D:\SU2" start_hidden="0" save_size="1">
 		<colors>
 			<color id="0" r="7" g="54" b="66"/>
 			<color id="1" r="38" g="139" b="210"/>
@@ -26,10 +26,10 @@
 		</font>
 		<window title="Console" icon="" use_tab_icon="1" use_console_title="0" show_cmd="0" show_cmd_tabs="0" use_tab_title="0" trim_tab_titles="20" trim_tab_titles_right="0"/>
 		<controls show_menu="0" show_toolbar="0" show_statusbar="0" show_tabs="1" hide_single_tab="1" show_scrollbars="0" flat_scrollbars="0" tabs_on_bottom="0"/>
-		<styles caption="1" resizable="1" taskbar_button="1" border="1" inside_border="2" tray_icon="1">
+		<styles caption="0" resizable="1" taskbar_button="1" border="0" inside_border="0" tray_icon="0">
 			<selection_color r="255" g="255" b="255"/>
 		</styles>
-		<position x="955" y="21" dock="-1" snap="0" z_order="0" save_position="1"/>
+		<position x="0" y="0" dock="1" snap="0" z_order="0" save_position="0"/>
 		<transparency type="1" active_alpha="240" inactive_alpha="181" r="0" g="0" b="0"/>
 	</appearance>
 	<behavior>
@@ -63,7 +63,7 @@
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="48" command="switchtab10"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="1" code="33" command="nexttab"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="1" code="34" command="prevtab"/>
-		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="87" command="closetab"/>
+		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="81" command="closetab"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="82" command="renametab"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="0" code="67" command="copy"/>
 		<hotkey ctrl="1" shift="0" alt="0" extended="1" code="46" command="clear_selection"/>
